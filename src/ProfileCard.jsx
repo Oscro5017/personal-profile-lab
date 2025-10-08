@@ -15,7 +15,7 @@ function ProfileCard({ profile }) {
     const toggleTheme = () => setIsDarkMode(!isDarkMode);
 
     // ✅ Card class
-    const cardClassName = `profile-card ${isDarkMode ? 'dark' : 'light'}`;
+    const cardClassName = `profile-card ${isDarkMode ? 'dark-mode' : 'light-mode'}`;
 
     // ✅ Avatar (initials)
     const getInitials = (name) =>

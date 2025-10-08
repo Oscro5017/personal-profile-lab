@@ -25,18 +25,17 @@ function App() {
       "Python",
       "Git",
       "Node.js"
-    ],
-    // TODO: นักศึกษาจะเพิ่ม fields เพิ่มเติมใน Challenge
+    ]
   };
 
   const myProfile = {
     name: "ณัฐพงศ์ จินะปัญญา",
     studentId: "67543210008-8",
     major: "วิศวกรรมซอฟต์แวร์",
-    year: "2",
-    age: "20",
-    gpa: "3.46",
-    email: "อีเมลของคุณ",
+    year: 2,
+    age: 20,
+    gpa: 3.45,
+    email: "oscro.art@gmail.com",
     hobbies: [
       "เล่นเกม",
       "ดูหนัง",
@@ -55,10 +54,8 @@ function App() {
     socialLinks: [
       { platform: "GitHub", url: "https://github.com/Oscro5017" },
       { platform: "Facebook", url: "https://www.facebook.com/Oscro.art/?locale=th_TH" },
-      { platform: "Tiktok", url: "https://www.tiktok.com/@oscro5017?_t=ZS-90NgLdrWvlH&_r=1" },
-      // เพิ่มเติมตามต้องการ
+      { platform: "Tiktok", url: "https://www.tiktok.com/@oscro5017?_t=ZS-90NgLdrWvlH&_r=1" }
     ]
-
   };
 
   return (
@@ -81,6 +78,8 @@ function App() {
       </div>
 
       <ProfileCard profile={sampleProfile} />
+      <ProfileCard profile={myProfile} />
+      
     </div>
   );
 }

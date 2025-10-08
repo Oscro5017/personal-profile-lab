@@ -354,3 +354,75 @@
 .achievement-badge {
     /* TODO: เขียน styles สำหรับ badges */
 }
+
+/* 🌙 Dark Mode (เพิ่มความสมบูรณ์) */
+.profile-card.dark-mode {
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  color: #e2e8f0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease;
+}
+
+.profile-card.dark-mode .profile-avatar {
+  background: #334155;
+  color: #e2e8f0;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.profile-card.dark-mode .info-item {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.profile-card.dark-mode .hobby-item {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
+}
+
+.profile-card.dark-mode .hobby-item.favorite {
+  background: rgba(255, 182, 193, 0.4);
+  color: #ffe4e6;
+}
+
+.profile-card.dark-mode .skill-tag {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.profile-card.dark-mode .skill-tag:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.profile-card.dark-mode .achievement-badge {
+  background: linear-gradient(135deg, #facc15, #f59e0b);
+  color: #1e293b;
+}
+
+.profile-card.dark-mode .social-link {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.profile-card.dark-mode .social-link:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.profile-card.dark-mode .contact-button {
+  background: #334155;
+  color: #f8fafc;
+}
+
+.profile-card.dark-mode .contact-button:hover {
+  background: #475569;
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.profile-card.dark-mode .contact-form {
+  background: rgba(255, 255, 255, 0.1);
+  color: #f1f5f9;
+}
+
+.profile-card.dark-mode .view-counter {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.profile-card {
+  transition: background 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+}
